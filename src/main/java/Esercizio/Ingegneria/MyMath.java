@@ -21,7 +21,7 @@ public class MyMath {
 		if(number <2 ) {
 			return false;
 		}
-		 for (int i = 2; i*i < number; i++) {
+		 for (int i = 2; i*i <= number; i++) {
 			 if(number % i == 0) {
 				 return false;
 			 }
